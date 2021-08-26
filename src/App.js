@@ -16,7 +16,7 @@ function App() {
           <Navbar.Brand href="#home">BC·SOFTWARE</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="http://foundry.bcsoftware.org">Foundry</Nav.Link>
-            <Nav.Link href="#link">Resume WIP</Nav.Link>
+            <Nav.Link href="#link">Resume</Nav.Link>
             <Nav.Link href="#link">Portfolio</Nav.Link>
             <Nav.Link href="#link">Services</Nav.Link>
             <Nav.Link href="#link">About Me</Nav.Link>
