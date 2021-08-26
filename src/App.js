@@ -14,11 +14,16 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="http://foundry.bcsoftware.org">DnD-Foundry</Nav.Link>
+            <Nav.Link href="#link">Resume WIP</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
+
+      <div className="cardContainer">
+        <div className="column" ></div>
+        <div className="column" ></div>
+      </div>
 
         
       <header className="App-header">

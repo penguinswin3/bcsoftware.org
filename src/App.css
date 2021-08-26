@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.column {
+  float: left;
+  width : 44%;
+  margin : 3%;
+  border: black 1px;
+}
+
+.cardContainer:after {
+  content:"";
+  display:table;
+  clear:both;
+}
