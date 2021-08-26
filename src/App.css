@@ -1,16 +1,7 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color : #2d2f33;
+  
 }
 
 .App-header {
@@ -28,24 +19,67 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .column {
   float: left;
   width : 44%;
   margin : 3%;
-  border: black 1px;
+  /* border: black 1px; */
+  height: 100vh;
+
 }
 
-.cardContainer:after {
-  content:"";
-  display:table;
-  clear:both;
+.cardContainer {
+  margin: 1%;
+  display: flex;
+  /* clear: none; */
+  border: black 2px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width : 18rem;
+  border : black 2px;
+
+}
+
+.smallCard {
+  margin-bottom : 2%;
+  margin-top: 2%;
+}
+
+.smallColumn {
+  height : 5%;
+  margin-left : 2%;
+}
+
+.largeColumn {
+  margin-right: 2%
+}
+
+.footer {
+  background-color: #292b2c;
+  box-shadow: 0 50vh 0 50vh #292b2c;
+  color: white;
+
+}
+
+.footerColumn {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
+
+.footerContainer {
+  background-color: #292b2c;
+  box-shadow: 0 50vh 0 50vh #292b2c;
+  border-right: solid white 1px;
+
+}
+
+.footerContainer:after{
+  content: "";
+  display: table;
+  clear: both;
 }
